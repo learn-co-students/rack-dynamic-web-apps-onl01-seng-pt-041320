@@ -16,7 +16,16 @@ class Application
     else
       resp.write "You Lose"
     end
- 
+
+
+    # time = 11
+
+    # if time < 12
+    #   resp.write "Good morning!"
+    # else
+    #   resp.write "Good Afternoon!"   
+    # end
+
     resp.finish
   end
 
